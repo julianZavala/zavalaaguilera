@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+header{
+    width: 100%;
+    height: 650px;
+    background: #ff0000;
+    background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.39), rgba(77, 160, 176, 0.32));
+    background: linear-gradient(to right, rgba(211, 157, 56, 0.3), rgba(77, 160, 176, 0.38)),url(../img/FONDO2.jpg);
+    
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.ola{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+nav{
+    background: rgba(255, 235, 0, 0.76);
+    text-align: right;
+    padding: 30px;
+}
+
+a{
+    color: skyblue;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.inicio{
+    text-align: center;
+    margin-top: 230px;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.contenedor{
+
+    
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: chartreuse;
+    padding: 20px;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+.contenedor-nosotros{
+    background: #03EBFF;
+}
+
+.cont-nosotros{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+.img-nosotros{
+    width: 50%;
+}
+.text-nosotros{
+    width: 40px;
+}
+
+.text-nosotros p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.galeria{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+}
+.img{
+    width: 335px;
+    height: 430px;
+    margin: 20px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.49);
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    transition: all .2s;   
+}
+
+.imagen{
+    width: 340px;
+    height: 220px;
+}
+
+.img h3{
+    padding: 5px;
+}
+
+.img p{
+    text-align: justify;
+    padding: 12px;
+    line-height: 1.5;
+}
+
+.img:hover{
+    transform: translateY(-15px);
+    
+}
+
+.imagen:active{
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+.Apps{
+    height: 300px;
+    margin-right: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+   
+.links{
+    width: 40%;
+    margin: auto;
+    padding: auto;
+}
+.apps{
+    margin: 20px;
+}
+li a{
+    font-size:25px;
+    padding: 15px;
+    margin: 5px;
+}
+
+li{
+    color: chocolate;
+    text-decoration: underline;
+    text-align: justify;
+}
+
+.c4:active{
+    color: crimson;
+}
+
+footer{
+    background: rgb(26, 5, 255);
+}
+
+.foot:hover{
+    background:rgb(26, 5, 255); 
+}
+.pie{
+    width: 90%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+}
+.foot{
+    margin: 5px;
+}
+.abc{
+    width: 55px;
+}
+
+.pirtex{
+    border-top: 2px solid #fff500;
+    color: #fff500;
+}
